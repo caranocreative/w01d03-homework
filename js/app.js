@@ -95,15 +95,28 @@ const thomsCloset = [
 ];
 
 
-let kristynShoe = kristynsCloset[0];
-thomsCloset[2].push(kristynShoe);
-delete kristynsCloset[0];
+// let kristynShoe = kristynsCloset[0];
+// thomsCloset[2].push(kristynShoe);
+// delete kristynsCloset[0];
 
-console.log(thomsCloset);
-console.log(kristynsCloset);
+// console.log(thomsCloset);
+// console.log(kristynsCloset);
 
-console.log(
-	"Kristyn will wear", `${kristynsCloset[3]}`,
-	`${kristynsCloset[4]}`,
-	"Thom will wear", `${thomsCloset[0][1]}`,
-	`${thomsCloset[1][1]}`);
+// console.log(
+// 	"Kristyn will wear", `${kristynsCloset[3]}`,
+// 	`${kristynsCloset[4]}`,
+// 	"Thom will wear", `${thomsCloset[0][1]}`,
+// 	`${thomsCloset[1][1]}`);
+
+// Commit 8 - I loops through their closets
+
+for (let i = 0; i < kristynsCloset.length; i++) {
+	console.log("WHIRR: Now washing", `${kristynsCloset[i]}`);
+}
+
+for (let i = 0; i < thomsCloset.length; i++) {
+	for (let j = 0; j < thomsCloset[i].length; j++)	{
+		console.log(thomsCloset[i][j]);
+	}
+	
+}
