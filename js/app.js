@@ -53,11 +53,13 @@
 // matt[2] = "Gotham City";
 // kristyn[2] = "Brooklyn";
 
-// Commit 6 - Yell at the Ninja Turtles answered"
+// Commit 6 - Yell at the Ninja Turtles answered" (I got it now)
 
 const ninjaTurtles = ['Donatello','Leonardo','Raphael','Michaelangelo'];
 
-for (let i = 0; i <= ninjaTurtles.length; i++) {
-		ninjaTurtles.toUpperCase();
-		console.log(ninjaTurtles);
+for (let i = 0; i < ninjaTurtles.length; i++) {
+		console.log(ninjaTurtles[i].toUpperCase());
 }
+
+// Commit 7 - Kristyn and Thom have their outfits ready for class - array practice
+
