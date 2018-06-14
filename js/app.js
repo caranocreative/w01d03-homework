@@ -10,18 +10,20 @@
 
 // Commit 2 - Get Even answered
 
-for (let i = 2; i < 200; i++) {
-	if (i % 2 == 0) {
-		console.log(i);
-	}
-	//i++
-}
+// for (let i = 2; i < 200; i++) {
+// 	if (i % 2 == 0) {
+// 		console.log(i);
+// 	}
+// }
 
 
 // Commit 3 - Excited Kittens answered
 
-// for (let i = 1; i <= 20; i++) {
-// 	if (i % 2 ==0);
-// 	console.log("Love me, pet me! HSSSSSS");
-// }
+let excitedKitten = ["...human...why you taking pictures of me?...", "...the catnip made me do it...", "...why does the red dot always get away..."];
+
+for (let i = 1; i <= 20; i++) {
+	if (i % 2 ==0) {
+		console.log(excitedKitten[Math.floor(Math.random() * 3)]);
+	}
+}
 
